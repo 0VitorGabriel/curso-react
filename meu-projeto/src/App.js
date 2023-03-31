@@ -1,4 +1,5 @@
 import './App.css';
+import HelloWord from './components/HelloWord';
 
 function App() {
   const name = "Vitor Gabriel"
@@ -11,9 +12,9 @@ function App() {
 
   return (
     <div className="App">
-        <h1>
+        <h2>
           Alterando o JSX!
-        </h1>
+        </h2>
         <p>
           Olá, {newName}
         </p>
@@ -21,6 +22,7 @@ function App() {
           soma: {soma(1, 5)}
         </p>
         <img src={url} alt="imagem" />
+        <HelloWord />
     </div>
   );
 }
